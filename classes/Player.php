@@ -5,7 +5,7 @@ require_once('Dbase.php');
 
 
 class Player extends Dbase{
-    private $_table = 'player_info';
+    private $_table = '';
     private $_db;
     
     public function __construct(){
